@@ -1,0 +1,14 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+a {
+  text-decoration: none;
+}
