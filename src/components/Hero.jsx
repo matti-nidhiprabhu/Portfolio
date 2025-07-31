@@ -17,7 +17,7 @@ export default function Hero() {
         >
           <Card.Img
             variant="top"
-            src="\public\profile.png"
+            src="/profile.png"
             className="mx-auto d-block rounded"
             style={{
               width: '100%',
