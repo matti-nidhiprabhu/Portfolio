@@ -9,11 +9,16 @@ export default function Experience() {
         <Card bg="dark" text="white" className="shadow-lg border-light">
           <Card.Body>
             <Card.Title>Machine Learning Research Intern</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">MIT, Manipal – May 2024 to July 2024</Card.Subtitle>
+            <Card.Subtitle className="mb-2 fw-light" style={{ color: '#bbbbbb' }}>
+  MIT, Manipal – May 2024 to July 2024
+</Card.Subtitle>
+
             <ul>
-              <li>Designed ML pipelines for fault detection in sensor networks.</li>
-              <li>Applied supervised and unsupervised learning for real-time detection.</li>
-              <li>Enhanced system robustness through statistical feature analysis.</li>
+              <li>Built and optimized end-to-end machine learning pipelines for fault detection in Wireless Sensor Networks (WSNs), significantly improving detection precision across real-time data streams.</li>
+              <li>Applied advanced supervised (Random Forest, XGBoost) and unsupervised (KMeans, Isolation Forest) models to identify anomalous sensor behavior with high accuracy.</li>
+              <li>Performed statistical feature engineering on raw sensor data (temperature, humidity, voltage) to extract meaningful insights and improve model generalization.</li>
+              <li>Developed a visual dashboard using Python and Matplotlib/Seaborn for dynamic performance monitoring, classification breakdowns, and sensor-specific fault mapping.</li>
+              <li>Collaborated with faculty and peer researchers, contributed to drafting a conference paper focusing on ensemble ML techniques for edge-based fault classification.</li>
             </ul>
           </Card.Body>
         </Card>

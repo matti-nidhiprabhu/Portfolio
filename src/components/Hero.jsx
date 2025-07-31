@@ -21,7 +21,7 @@ export default function Hero() {
             className="mx-auto d-block rounded"
             style={{
               width: '100%',
-              maxWidth: '300px',
+              maxWidth: '800px',
               height: 'auto',
               objectFit: 'cover',
               transition: 'transform 0.3s ease',
@@ -30,7 +30,7 @@ export default function Hero() {
             onMouseOut={(e) => (e.currentTarget.style.transform = 'scale(1.0)')}
           />
           <Card.Body>
-            <Card.Title className="fs-1 fw-bold mt-3">Hi, I'm Nidhi Prabhu</Card.Title>
+            <Card.Title className="fs-2 fw-bold mt-3">Hi, I'm Matti Nidhi Prabhu</Card.Title>
             <Card.Text className="fs-5 mb-4">
               A passionate engineering student and aspiring software developer.
             </Card.Text>
